@@ -8,7 +8,7 @@ gem 'rails', "= #{ENV.fetch("RAILS_VERSION", "5.1.7")}"
 gem "rollbar", "= #{ENV.fetch("ROLLBAR_VERSION", "2.23.2")}"
 
 gem 'sqlite3', '~> 1.4'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
